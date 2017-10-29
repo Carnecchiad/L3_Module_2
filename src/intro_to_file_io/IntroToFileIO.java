@@ -9,7 +9,8 @@ import javax.swing.JFileChooser;
 
 public class IntroToFileIO {
 	public static void main(String[] args) {
-		
+		int x = 1;
+		x = x <<1;
 		//Read from a file one character at a time
 		try {
 			FileReader fr = new FileReader("src/intro_to_file_io/test.txt");
