@@ -1,4 +1,5 @@
 package intro_to_file_io;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -18,7 +19,7 @@ public class IntroToFileIO {
 			while(c != -1){
 				System.out.print((char)c);
 				c = fr.read();
-				
+				//lol
 			}
 			fr.close();
 		} catch (FileNotFoundException e) {
